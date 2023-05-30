@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "578de76600e8f303f7b8dd47fe1f6575",
+    "content-hash": "79ad7d4d9de2fa4c0b789ae64e6f0fca",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2328,6 +2328,46 @@
                 "uuid"
             ],
             "time": "2021-09-25T23:10:38+00:00"
+        },
+        {
+            "name": "signe/redlock-php",
+            "version": "1.1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://mirrors.cloud.tencent.com/repository/composer/signe/redlock-php/1.1.0/signe-redlock-php-1.1.0.zip",
+                "reference": "ccb976619c8d41da5824110b893faa3120636544",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "ext-redis": "*",
+                "php": ">= 7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RedLock\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Ronny Lopez",
+                    "email": "ronny@tangotree.io"
+                },
+                {
+                    "name": "Katherine Rossiter",
+                    "email": "signe@cothlamadh.net"
+                },
+                {
+                    "name": "Henrik Tudborg",
+                    "email": "henrik@tudb.org"
+                }
+            ],
+            "description": "Redis distributed locks in PHP",
+            "time": "2018-11-27T19:27:02+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
