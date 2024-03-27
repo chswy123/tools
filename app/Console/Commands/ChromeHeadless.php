@@ -38,7 +38,6 @@ class ChromeHeadless extends Command
      */
     public function handle()
     {
-
         $browserFactory = new BrowserFactory();
 
         $browserFactory->setOptions([
