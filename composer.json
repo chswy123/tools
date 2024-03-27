@@ -6,6 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+        "chrome-php/chrome": "^1.11",
         "fruitcake/laravel-cors": "^2.0",
         "godruoyi/php-snowflake": "^2.2",
         "guzzlehttp/guzzle": "^7.0.1",
